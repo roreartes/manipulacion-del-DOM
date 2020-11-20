@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+    }
+
+    *{
+      box-sizing: border-box;
+      }
+      body{
+        background-color: #1BBACD;
+        
+        .user-search{
+          display: flex;
+          flex-direction: column;
+          max-width: 900px;
+          align-items: center;
+          padding: 30px 10px;
+          .input{
+            padding: 10px 20px;
+            color: #8B8C8C;
+            width: 350px;
+            margin-bottom: 20px;
+            border: 0;
+          }
+          .button{
+            text-decoration: none;
+            background-color: #05E8E8;
+            padding: 10px 20px;
+            width: 350px;
+            border: 0;
+            font-weight: bold;
+          }
+        }
+        .user-card{
+          padding:30px;
+          width: 300px;
+          background-color: #f0f0f0;
+          position: relative;
+          text-align: center;
+          margin: 100px auto 0;
+          .userimg{
+            display: block;
+            width: 100px;
+           
+            position: absolute;
+            left: 50%;
+            top: 0;
+            
+            transform: translate(-50%, -50%);
+            border-radius: 50%;
+          }
+          .user-nickname{
+            margin: 30px;
+            font-size: 1.4rem;
+            font-weight: bold;
+          }
+          
+          .user-property{
+            .property{
+            margin: 18px 0px;
+          }
+           
+          }
+          
+        
+        }
+      }

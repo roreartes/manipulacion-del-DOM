@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1BBACD;
+}
+body .user-search {
+  display: flex;
+  flex-direction: column;
+  max-width: 900px;
+  align-items: center;
+  padding: 30px 10px;
+}
+body .user-search .input {
+  padding: 10px 20px;
+  color: #8B8C8C;
+  width: 350px;
+  margin-bottom: 20px;
+  border: 0;
+}
+body .user-search .button {
+  text-decoration: none;
+  background-color: #05E8E8;
+  padding: 10px 20px;
+  width: 350px;
+  border: 0;
+  font-weight: bold;
+}
+body .user-card {
+  padding: 30px;
+  width: 300px;
+  background-color: #f0f0f0;
+  position: relative;
+  text-align: center;
+  margin: 100px auto 0;
+}
+body .user-card .userimg {
+  display: block;
+  width: 100px;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+body .user-card .user-nickname {
+  margin: 30px;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+body .user-card .user-property .property {
+  margin: 18px 0px;
+}
+
+/*# sourceMappingURL=styles.css.map */
